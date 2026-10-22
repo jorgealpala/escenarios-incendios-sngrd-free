@@ -1,4 +1,4 @@
-# Escenarios Incendios Forestales y Capacidades del SNGRD — versión GitHub Pages
+# Escenarios Incendios Forestales ante la ocurrencia del Fenómeno El Niño 2026 - 2027 — versión GitHub Pages
 
 Portal web **estático** (UNGRD · Fenómeno El Niño 2026–2027) listo para publicarse en
 **GitHub Pages**. Es la *copia de producción* de la versión de desarrollo; aquí no hay
@@ -14,7 +14,7 @@ servidores: todo corre en el navegador leyendo archivos por `fetch()`.
 
 ## A. Qué es el proyecto
 
-Tablero que unifica seis módulos de análisis de incendios para Colombia:
+Tablero que unifica cinco módulos de análisis de incendios para Colombia:
 
 | Pestaña | Qué muestra | Dónde vive |
 |---|---|---|
@@ -23,7 +23,6 @@ Tablero que unifica seis módulos de análisis de incendios para Colombia:
 | **Área quemada** | Cicatriz de fuego (MapBiomas) | `index.html` (nativo) |
 | **Lluvia antecedente** | Lluvia CHIRPS de los 90 días previos a cada evento (San Andrés/Providencia: estaciones IDEAM) | `index.html` (nativo) |
 | **Estrategias GRD** | Estrategias SRR–UNGRD por territorio: mapa + matriz de medidas + diagnóstico, catálogo y fichas PDF | `index.html` + `estrategias.js` (nativo) |
-| **Capacidades de respuesta** | Matriz Nacional de Capacidades SNGRD | `capacidades_sngrd.html` (iframe, datos embebidos) |
 
 Los mapas D3 muestran **San Andrés** en un recuadro (inset). Incluye además un **asistente de IA** flotante que **calcula y compara cifras** de todas las pestañas (`asistente_datos.js`) y **Reporte PDF** (captura la vista actual).
 

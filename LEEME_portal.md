@@ -1,4 +1,4 @@
-# Portal · Escenarios Incendios Forestales y Capacidades del SNGRD (GitHub Pages)
+# Portal · Escenarios Incendios Forestales ante la ocurrencia del Fenómeno El Niño 2026 - 2027 (GitHub Pages)
 
 **Fenómeno El Niño 2026–2027 · UNGRD — Subdirección para el Conocimiento del Riesgo**
 
@@ -29,7 +29,6 @@ HTML el navegador bloquea la lectura de datos (`fetch`), por eso se sirve por HT
 | **Área quemada** | Cicatriz de fuego (MapBiomas Fuego, 30 m). | D3 (`index.html`) |
 | **Lluvia antecedente** | Lluvia CHIRPS de los 90 días previos a cada evento. **San Andrés y Providencia**: lluvia de estaciones del IDEAM (CHIRPS no cubre las islas). Overlay opcional de puntos de calor. | D3 (`index.html`) |
 | **Estrategias GRD** | Estrategias SRR–UNGRD **sincronizadas al territorio**: a la izquierda, mapa + **matriz de medidas** (línea de acción × plazo); a la derecha, diagnóstico, prioridades, catálogo y **fichas PDF**. Incluye **nota aclaratoria** (medidas orientativas). | D3 + `estrategias.js` |
-| **Capacidades de respuesta** | Matriz Nacional de Capacidades Incendios SNGRD. | iframe → `capacidades_sngrd.html` |
 
 En los mapas D3 (Lluvia, Estrategias GRD, Área) **San Andrés** aparece en un **recuadro (inset)** arriba-izquierda, ya que las islas están lejos del continente.
 
